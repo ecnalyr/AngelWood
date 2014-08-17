@@ -9,3 +9,186 @@
  *= require_self
  *= require_tree .
 */
+div.block {
+    width: 191px;
+    /*could be 192 x 192 since there have no borders *= require store/spree_product_zoom
+*/
+    height: 191px;
+    float: left;
+    background-color: #88BFC7;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    position: relative;
+}
+
+/*div.navigation div {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+} *= require store/spree_product_zoom
+*/
+
+div.no_bottom {
+    border-color: transparent;
+}
+
+div.product {
+    background-color: white;
+}
+
+div.product-image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.product-image .for-sale {
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+div.navigation h1 {
+    text-align: center;
+    margin-top: 70px;
+}
+
+div.welcome-nav h1{
+    text-align: center;
+    margin-top: 70px;
+}
+
+ul.welcome-gallery {
+    padding-top: 10%;
+}
+
+
+
+div.block h1 {
+    color: white;
+}
+
+div#logo {
+    background-color: #362120;
+}
+
+div#gallery {
+    background-color: #632A22;
+}
+
+div#contact {
+    background-color: #9C825D; 
+}
+
+div.blank_space {
+    background-color: transparent;
+}
+
+div#wrapper {
+    width: 960px;
+}
+
+div.container {
+    width: 960px;
+}
+
+div.product_left {
+    width: 575px;
+    float: left;
+    display: inline;
+}
+
+div.product_right {
+    width: 385px;
+    float: left;
+    display: inline;
+}
+
+header.row {
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+
+nav.pagination {
+    text-align: right;
+}
+
+body {
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*background-color: #9C6740; *= require store/spree_product_zoom
+*/
+    height: 100%;
+    /* IE10 Consumer Preview  *= require store/spree_product_zoom
+*/ 
+    background-image: -ms-radial-gradient(left top, circle farthest-corner, #FFFFFF 0%, #9C6740 100%);
+
+    /* Mozilla Firefox  *= require store/spree_product_zoom
+*/ 
+    background-image: -moz-radial-gradient(left top, circle farthest-corner, #FFFFFF 0%, #9C6740 100%);
+
+    /* Opera  *= require store/spree_product_zoom
+*/ 
+    background-image: -o-radial-gradient(left top, circle farthest-corner, #FFFFFF 0%, #9C6740 100%);
+
+    /* Webkit (Safari/Chrome 10)  *= require store/spree_product_zoom
+*/ 
+    background-image: -webkit-gradient(radial, left top, 0, left top, 994, color-stop(0, #FFFFFF), color-stop(1, #9C6740));
+
+    /* Webkit (Chrome 11+)  *= require store/spree_product_zoom
+*/ 
+    background-image: -webkit-radial-gradient(left top, circle farthest-corner, #FFFFFF 0%, #9C6740 100%);
+
+    /* W3C Markup, IE10 Release Preview  *= require store/spree_product_zoom
+*/ 
+    background-image: radial-gradient(circle farthest-corner at left top, #FFFFFF 0%, #9C6740 100%);
+}
+
+div#product-description {
+    padding-left: 10px;
+    background-color: #F0F2F0;
+}
+
+table#product-properties {
+    width: 375px;
+    border-right: 0px;
+}
+
+div#contact-image {
+    border: 1px solid #999999;
+    height: 430px;
+}
+
+div#quantity-field input {
+    visibility: hidden;
+}
+
+input#order_line_items_attributes_0_quantity {
+    visibility: hidden;
+}
+
+button#add-to-cart-button {
+    background-color: #965050;
+}
+
+li#link-to-cart {
+    list-style-type: none;
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+table thead {
+    background-color: white;
+}
+
+
+div#footer-left {
+    float: left;
+}
+
+div#footer-right {
+    float: right;
